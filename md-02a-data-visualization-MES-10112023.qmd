@@ -148,7 +148,7 @@ gapminder_summary_continent_year <- read_rds(here::here("data/gapminder-summary-
 
     The data types for the variables used for aesthetic mappings are: continent -\> *category*, life expectancy -\> *continuous*.
 
-## Boxplot for `gapminder_2007` with outliers
+### Boxplot for `gapminder_2007` [with outliers]{.underline}
 
 ```{r}
 #| eval: true
@@ -158,7 +158,7 @@ ggplot(data = gapminder_2007,
   geom_boxplot()
 ```
 
-## Boxplot for `gapminder_2007` with outliers
+### Boxplot for `gapminder_2007` [without outliers]{.underline}
 
 ```{r}
 #| eval: true
@@ -221,7 +221,7 @@ ggplot(data = gapminder_summary_2007,
   geom_col()
 ```
 
-### with `geom_bar()` 
+### with `geom_bar()`
 
 1.  Add a new code chunk below.
 
@@ -243,7 +243,7 @@ ggplot(data = gapminder_2007,
   geom_bar()
 ```
 
-## Task 9: Create a histogram--\> NOT DONE
+## Task 9: Create a histogram
 
 1.  Add a new code chunk below.
 
